@@ -1,8 +1,46 @@
-.about {
-  display: flex;
+body {
+  box-sizing: border-box;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
 }
+
+.section-container {
+  height: 100vh;
+  width: 100vw;
+  padding: 2vh 2vw;
+}
+
+/* about section */
+.about {
+  align-items: center;
+  background-color: rgb(0, 153, 255);
+  display: flex;
+  justify-content: space-between;
+}
+
+
 
 #profile-img {
   object-fit: contain;
   width: 33vw;
+}
+/* projects section */
+
+.projects-container {
+  display: flex;
+  height: 90%;
+  overflow: scroll;
+}
+
+.project {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 90%;
+  margin: 0 5vw;
+}
+.project-image {
+  height: 60%;
+  object-fit: contain;
 }

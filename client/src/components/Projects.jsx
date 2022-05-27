@@ -4,7 +4,7 @@ import '../App.css';
 
 export const Projects = () => {
   return (
-    <div className="projects">
+    <div className="projects section-container">
       <h2>recent projects:</h2>
       <div className="projects-container">
         {projects.map(project => (

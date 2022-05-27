@@ -1,7 +1,7 @@
 import '../App.css';
 export const Contact = () => {
   return (
-    <div className="contact">
+    <div className="contact section-container">
       <h3>let's work together!</h3>
       <a
         href="https://www.linkedin.com/in/nicholas-rynearson-88a77635/"

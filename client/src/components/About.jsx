@@ -3,7 +3,7 @@ import '../App.css';
 
 export const About = () => {
   return (
-    <div className="about">
+    <div className="about section-container">
       <img id="profile-img" src={profileImage} alt="Nicholas' head shot" />
       <div className="about-info">
         <h1>Nicholas Rynearson</h1>
