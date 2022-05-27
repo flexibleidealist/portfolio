@@ -1,5 +1,6 @@
-import { aboutText, currentRole, profileImage, projects } from '../data';
+import { aboutText, currentRole, profileImage } from '../data';
 import '../App.css';
+
 export const About = () => {
   return (
     <div className="about">

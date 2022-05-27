@@ -1,5 +1,6 @@
 import { Project } from './Project.jsx';
 import { projects } from '../data.js';
+import '../App.css';
 
 export const Projects = () => {
   return (
