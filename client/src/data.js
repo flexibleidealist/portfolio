@@ -1,32 +1,37 @@
 export const profileImage = 'https://i.imgur.com/kHvKSSc.jpg';
-export const projects = {
-  drawBrite: {
+export const projects = [
+  {
+    name: 'DrawBrite',
     image: 'https://i.imgur.com/Wtth3ih.png',
     link: 'https://drawbrite.netlify.app/',
     gitHub:
       'https://github.com/flexibleidealist/drawing-app?organization=flexibleidealist&organization=flexibleidealist',
   },
-  artSpace: {
+  {
+    name: 'ArtSpace',
     image: 'https://i.imgur.com/2IKFCT8.png',
     link: 'https://myartspace.netlify.app/',
     gitHub: 'https://github.com/flexibleidealist/Art-Space',
   },
-  bSideCollective: {
+  {
+    name: 'B-Side Collective',
     image: 'https://i.imgur.com/xMVnWir.png',
     link: 'https://b-side-collective.netlify.app/',
     gitHub: 'https://github.com/navedrahim/b-side-collective',
   },
-  tinyLibrary: {
+  {
+    name: 'tiny library',
     image: 'https://i.imgur.com/UrRcBBH.png',
     link: 'https://tiny-library.netlify.app/',
     gitHub: 'https://github.com/flexibleidealist/tiny-library',
   },
-  nycBeaches: {
+  {
+    name: 'NYC Beach App',
     image: 'https://i.imgur.com/rYphrMd.png',
     link: 'https://nyc-beach-app.netlify.app/',
     gitHub: 'https://github.com/flexibleidealist/NYC-Beach-App',
   },
-};
+];
 export const aboutText =
   'I am a software engineer who loves problem solving and learning new things. Fifteen years in my former career as a professor of Greek and Latin taught me a lot about explaining complex ideas to beginners. I believe a better world is possible and technology designed to empower people can help us build it.';
 

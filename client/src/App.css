@@ -1,0 +1,8 @@
+.about {
+  display: flex;
+}
+
+#profile-img {
+  object-fit: contain;
+  width: 33vw;
+}
